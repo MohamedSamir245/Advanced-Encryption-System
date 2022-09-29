@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv}
+vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubWord.sv}
+

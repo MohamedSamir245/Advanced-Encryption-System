@@ -1,0 +1,292 @@
+# Reading pref.tcl
+# do AddRoundKey_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/mix_column.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:02 on Sep 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/mix_column.v 
+# -- Compiling module x_time
+# -- Compiling module multi
+# -- Compiling module colbyrow
+# -- Compiling module mix_col
+# 
+# Top level modules:
+# 	mix_col
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/inv_mix_column.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/inv_mix_column.v 
+# -- Compiling module inv_multi
+# -- Compiling module inv_colbyrow
+# -- Compiling module inv_mix_col
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/wrapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/wrapper.sv 
+# -- Compiling module wrapper
+# -- Compiling module wrapper_tb
+# 
+# Top level modules:
+# 	wrapper_tb
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubBytes.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubBytes.sv 
+# -- Compiling module SubBytes
+# -- Compiling module SubBytes_tb
+# 
+# Top level modules:
+# 	SubBytes_tb
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv 
+# -- Compiling module SBox
+# -- Compiling module SBox_tb
+# 
+# Top level modules:
+# 	SBox_tb
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSubBytes.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSubBytes.sv 
+# -- Compiling module InvSubBytes
+# -- Compiling module InvSubBytes_tb
+# 
+# Top level modules:
+# 	InvSubBytes_tb
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSBox.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSBox.sv 
+# -- Compiling module InvSBox
+# -- Compiling module InvSBox_tb
+# 
+# Top level modules:
+# 	InvSBox_tb
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/AddRoundKey.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/AddRoundKey.sv 
+# -- Compiling module AddRoundKey
+# -- Compiling module AddRoundKey_tb
+# 
+# Top level modules:
+# 	AddRoundKey_tb
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:03 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv 
+# -- Compiling module decr_192
+# 
+# Top level modules:
+# 	decr_192
+# End time: 20:01:03 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv 
+# -- Compiling module decr_128
+# 
+# Top level modules:
+# 	decr_128
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvShiftRows.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvShiftRows.sv 
+# -- Compiling module InvShiftRows
+# 
+# Top level modules:
+# 	InvShiftRows
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv 
+# -- Compiling module KeyExpansion_128
+# 
+# Top level modules:
+# 	KeyExpansion_128
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv 
+# -- Compiling module KeyExpansion_192
+# 
+# Top level modules:
+# 	KeyExpansion_192
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_256.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_256.sv 
+# -- Compiling module KeyExpansion_256
+# 
+# Top level modules:
+# 	KeyExpansion_256
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_256.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_256.sv 
+# -- Compiling module decr_256
+# 
+# Top level modules:
+# 	decr_256
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv 
+# -- Compiling module encrypt_128
+# 
+# Top level modules:
+# 	encrypt_128
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/ShiftRows.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/ShiftRows.sv 
+# -- Compiling module ShiftRows
+# 
+# Top level modules:
+# 	ShiftRows
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv 
+# -- Compiling module encrypt_192
+# 
+# Top level modules:
+# 	encrypt_192
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/CMP1-\ Materials/First\ Year/Second\ Term/Logic\ Design/Project/New\ folder {D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_256.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:01:04 on Sep 29,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder" D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_256.sv 
+# -- Compiling module encrypt_256
+# 
+# Top level modules:
+# 	encrypt_256
+# End time: 20:01:04 on Sep 29,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.wrapper_tb
+# vsim work.wrapper_tb 
+# Start time: 20:01:13 on Sep 29,2022
+# Loading sv_std.std
+# Loading work.wrapper_tb
+# Loading work.wrapper
+# Loading work.encrypt_128
+# Loading work.KeyExpansion_128
+# Loading work.AddRoundKey
+# Loading work.SubBytes
+# Loading work.SBox
+# Loading work.ShiftRows
+# Loading work.mix_col
+# Loading work.colbyrow
+# Loading work.multi
+# Loading work.x_time
+# Loading work.decr_128
+# Loading work.InvShiftRows
+# Loading work.InvSubBytes
+# Loading work.InvSBox
+# Loading work.inv_mix_col
+# Loading work.inv_colbyrow
+# Loading work.inv_multi
+# Loading work.encrypt_192
+# Loading work.KeyExpansion_192
+# Loading work.decr_192
+# Loading work.encrypt_256
+# Loading work.KeyExpansion_256
+# Loading work.decr_256
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'unit'.  Expected 17, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit10/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv Line: 76
+# ** Warning: (vsim-3722) D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv(76): [TFMPC] - Missing connection for port 'key11'.
+# ** Warning: (vsim-3722) D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv(76): [TFMPC] - Missing connection for port 'key12'.
+# ** Warning: (vsim-3722) D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv(76): [TFMPC] - Missing connection for port 'key13'.
+# ** Warning: (vsim-3722) D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv(76): [TFMPC] - Missing connection for port 'key14'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key11'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit11/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv Line: 92
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key12'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit11/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv Line: 92
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key13'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit11/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv Line: 92
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key14'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit11/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv Line: 92
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key13'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit20/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key14'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit20/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv Line: 91
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key13'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit21/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv Line: 87
+# ** Warning: (vsim-3015) [PCDPC] - Port size (128) does not match connection size (1) for port 'key14'. The port definition is at: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /wrapper_tb/unit/unit21/unit File: D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv Line: 87
+# ** Warning: Design size of 10958 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+add wave -position end  sim:/wrapper_tb/enable
+add wave -position end  sim:/wrapper_tb/reset
+add wave -position end  sim:/wrapper_tb/in128
+add wave -position end  sim:/wrapper_tb/in192
+add wave -position end  sim:/wrapper_tb/in256
+add wave -position end  sim:/wrapper_tb/out128
+add wave -position end  sim:/wrapper_tb/out192
+add wave -position end  sim:/wrapper_tb/out256
+add wave -position end  sim:/wrapper_tb/enable_led
+add wave -position end  sim:/wrapper_tb/reset_led
+run
+run
+run
+# test_1 passed correctly 
+run
+run
+# test_2 passed correctly 
+run
+# test_3 passed correctly 
+run
+run
+# End time: 20:03:37 on Sep 29,2022, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 14

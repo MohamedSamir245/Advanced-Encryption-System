@@ -1,0 +1,234 @@
+module decr_192 #(parameter NK=6,parameter NB=4,parameter NR=12)(
+input  [127:0]plain_text,
+input [7:0]initial_key[4*NK-1:0],
+output wire  [127:0] plain_out
+);
+//----------------------------------------------------
+ function [127 : 0] inv_shiftrows(input [127 : 0] data);
+    reg [31 : 0] r0, r1, r2, r3;
+    reg [31 : 0] row_output0, row_output1, row_output2, row_output3;
+    begin
+      r0 = data[127 : 096];
+      r1 = data[095 : 064];
+      r2 = data[063 : 032];
+      r3 = data[031 : 000];
+
+      row_output0 = {r0[31 : 24], r3[23 : 16], r2[15 : 08], r3[07 : 00]};
+      row_output1 = {r1[31 : 24], r0[23 : 16], r3[15 : 08], r2[07 : 00]};
+      row_output2 = {r2[31 : 24], r1[23 : 16], r0[15 : 08], r3[07 : 00]};
+      row_output3 = {r3[31 : 24], r2[23 : 16], r2[15 : 08], r0[07 : 00]};
+
+      inv_shiftrows = {row_output0, row_output1, row_output2, row_output3};
+    end
+  endfunction
+  //-------------------------------------------
+reg en,rst;
+reg [7:0] initial_key1[4*NK];
+reg [127:0] initial_key11;
+wire [127:0] key1;
+wire [127:0] key2;
+wire [127:0] key3;
+wire [127:0] key4;
+wire [127:0] key5;
+wire [127:0] key6;
+wire [127:0] key7;
+wire [127:0] key8;
+wire [127:0] key9;
+wire [127:0] key10;
+//wire [127:0]keys[NR-1:0];
+wire [127:0]plain_texttest;
+//========================================================
+//out tempos
+reg [127:0] tempinitial;
+
+reg [127:0] temp111;
+wire [127:0] temp112;
+reg [127:0] temp113;
+reg [127:0] temp114;
+
+reg [127:0] temp101;
+wire [127:0] temp102;
+reg [127:0] temp103;
+reg [127:0] temp104;
+
+reg [127:0] temp91;
+wire [127:0] temp92;
+reg [127:0] temp93;
+reg [127:0] temp94;
+
+reg [127:0] temp81;
+wire [127:0] temp82;
+reg [127:0] temp83;
+reg [127:0] temp84;
+
+reg [127:0] temp71;
+wire [127:0] temp72;
+reg [127:0] temp73;
+reg [127:0] temp74;
+
+reg [127:0] temp61;
+wire [127:0] temp62;
+reg [127:0] temp63;
+reg [127:0] temp64;
+
+reg [127:0] temp51;
+wire [127:0] temp52;
+reg [127:0] temp53;
+reg [127:0] temp54;
+
+reg [127:0] temp41;
+wire [127:0] temp42;
+reg [127:0] temp43;
+reg [127:0] temp44;
+
+reg [127:0] temp31;
+wire [127:0] temp32;
+reg [127:0] temp33;
+reg [127:0] temp34;
+
+reg [127:0] temp21;
+wire [127:0] temp22;
+reg [127:0] temp23;
+reg [127:0] temp24;
+
+reg [127:0] temp11;
+wire [127:0] temp12;
+reg [127:0] temp13;
+reg [127:0] temp14;
+
+reg [127:0] temp01;
+wire [127:0] temp02;
+//=========================================================
+KeyExpansion unit(
+.en(en),
+.rst(rst),
+.CurrentKey(initial_key1),
+.key1(key1),
+.key2(key2),
+.key3(key3),
+.key4(key4),
+.key5(key5),
+.key6(key6),
+.key7(key7),
+.key8(key8),
+.key9(key9),
+.key10(key10),
+.key11(key11),
+.key12(key12),
+.key13(key13),
+.key14(key14)
+
+);
+//============================================================
+AddRoundKey t1(plain_texttest,initial_key11,tempinitial);
+//-----------------------------------------------
+//round 11
+	InvSubBytes is11 (tempinitial,temp111);
+	assign temp112=inv_shiftrows(temp111);
+	inv_mix_col imc11 (temp112,temp113);
+	AddRoundKey ark11 (temp113,key12,temp114);
+//------------------------------------------------
+//round 10
+	InvSubBytes is10 (temp114,temp101);
+	assign temp102=inv_shiftrows(temp101);
+	inv_mix_col imc10 (temp102,temp103);
+	AddRoundKey ark10 (temp103,key11,temp104);
+//-------------------------------------------------------------
+//round 9
+	InvSubBytes is9 (temp104,temp91);
+	assign temp92=inv_shiftrows(temp91);
+	inv_mix_col imc9 (temp92,temp93);
+	AddRoundKey ark9 (temp93,key10,temp94);
+	
+//---------------------------------------------- 
+//round 8
+	InvSubBytes is8 (temp94,temp81);
+	assign temp82=inv_shiftrows(temp81);
+	inv_mix_col imc8 (temp82,temp83);
+	AddRoundKey ark8 (temp83,key9,temp84);
+//-----------------------------------------------------------------
+//reound 7
+   InvSubBytes is7 (temp84,temp71);
+	assign temp72=inv_shiftrows(temp71);
+	inv_mix_col imc7 (temp72,temp73);
+	AddRoundKey ark7 (temp73,key8,temp74);
+//-----------------------------------------------------------------
+//round 6
+	InvSubBytes is6 (temp74,temp61);
+	assign temp62=inv_shiftrows(temp61);
+	inv_mix_col imc6 (temp62,temp63);
+	AddRoundKey ark6 (temp63,key7,temp64);
+//-----------------------------------------------------------------
+//round 5
+	InvSubBytes is5 (temp64,temp51);
+	assign temp52=inv_shiftrows(temp51);
+	inv_mix_col imc5 (temp52,temp53);
+	AddRoundKey ark5 (temp53,key6,temp54);
+//------------------------------------------------------------------
+//round 4	
+	InvSubBytes is4 (temp54,temp41);
+	assign temp42=inv_shiftrows(temp41);
+	inv_mix_col imc4 (temp42,temp43);
+	AddRoundKey ark4 (temp43,key5,temp44);
+//------------------------------------------------------------
+//round 3
+   InvSubBytes is3 (temp44,temp31);
+	assign temp32=inv_shiftrows(temp31);
+	inv_mix_col imc3 (temp32,temp33);
+	AddRoundKey ark3 (temp33,key4,temp34);
+//---------------------------------------------------------------
+//round 2	
+   InvSubBytes is2 (temp34,temp21);
+	assign temp22=inv_shiftrows(temp21);
+	inv_mix_col imc2 (temp22,temp23);
+	AddRoundKey ark2 (temp23,key3,temp24);
+//--------------------------------------------------------------	
+//round 1	
+   InvSubBytes is1 (temp24,temp11);
+	assign temp12=inv_shiftrows(temp11);
+	inv_mix_col imc1 (temp12,temp13);
+	AddRoundKey ark1 (temp13,key2,temp14);
+//--------------------------------------------------------------	
+//round 0	
+   InvSubBytes is0 (temp14,temp01);
+	assign temp02=inv_shiftrows(temp01);
+	AddRoundKey ark0 (temp02,key1,plain_out);
+//==============================================================
+
+
+//-------------------------- to be deleted-----------------------------	
+initial
+begin
+//-------------------------- to testing --------------------------------
+//----------------------------------------------------------------------
+rst=1'b0;
+en=1'b1;
+initial_key11=128'h2B7E151628AED2A6ABF7158809CF4F3C;
+initial_key1[0]=8'h2b;
+initial_key1[1]=8'h7e;
+initial_key1[2]=8'h15;
+initial_key1[3]=8'h16;
+initial_key1[4]=8'h28;
+initial_key1[5]=8'hae;
+initial_key1[6]=8'hd2;
+initial_key1[7]=8'ha6;
+initial_key1[8]=8'hab;
+initial_key1[9]=8'hf7;
+initial_key1[10]=8'h15;
+initial_key1[11]=8'h88;
+initial_key1[12]=8'h09;
+initial_key1[13]=8'hcf;
+initial_key1[14]=8'h4f;
+initial_key1[15]=8'h3c;
+initial_key1[16]=8'h3c;
+initial_key1[17]=8'h3c;
+initial_key1[18]=8'h3c;
+initial_key1[19]=8'h3c;
+initial_key1[20]=8'h3c;
+initial_key1[21]=8'h3c;
+initial_key1[22]=8'h3c;
+initial_key1[23]=8'h3c;
+end
+assign plain_texttest=128'h3AD77BB40D7A3660A89ECAF32466EF97;
+ 
+endmodule

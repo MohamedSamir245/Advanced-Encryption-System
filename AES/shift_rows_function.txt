@@ -1,0 +1,17 @@
+ function [127 : 0] shiftrows(input [127 : 0] data);
+    reg [31 : 0] r0, r1, r2, r3;
+    reg [31 : 0] row_output0, row_output1, row_output2, row_output3;
+    begin
+      r0 = data[127 : 096];
+      r1 = data[095 : 064];
+      r2 = data[063 : 032];
+      r3 = data[031 : 000];
+
+      row_output0 = {r0[31 : 24], r1[23 : 16], r2[15 : 08], r3[07 : 00]};
+      row_output1 = {r1[31 : 24], r2[23 : 16], r3[15 : 08], r0[07 : 00]};
+      row_output2 = {r2[31 : 24], r3[23 : 16], r0[15 : 08], r1[07 : 00]};
+      row_output3 = {r3[31 : 24], r0[23 : 16], r1[15 : 08], r2[07 : 00]};
+
+      shiftrows = {row_output0, row_output1, row_output2, row_output3};
+    end
+  endfunction

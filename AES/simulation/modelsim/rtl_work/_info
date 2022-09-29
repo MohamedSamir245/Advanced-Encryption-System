@@ -1,0 +1,816 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/simulation/modelsim
+vAddRoundKey
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1664474463
+!i10b 1
+!s100 3A4;Q>QK2ERZ:>X<6f^;50
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKL_flWhc56^8anJPk2^Y93
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1653343748
+Z6 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/AddRoundKey.sv
+Z7 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/AddRoundKey.sv
+!i122 7
+L0 1 26
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1664474463.000000
+Z10 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/AddRoundKey.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/AddRoundKey.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder}
+Z14 tCvgOpt 0
+n@add@round@key
+vAddRoundKey_tb
+R1
+R2
+!i10b 1
+!s100 TYcOohWMB[1UY9M<cR?2X2
+R3
+I?SH]k;^hLDoBJaNVW>UOP3
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 7
+L0 28 22
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@add@round@key_tb
+vcolbyrow
+R2
+!i10b 1
+!s100 kGPS7e9l<]fYf;gWDSYTg3
+R3
+IjSeWe]EeWbSaaLakChaF91
+R4
+R0
+Z15 w1651911688
+Z16 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/mix_column.v
+Z17 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/mix_column.v
+!i122 0
+L0 36 21
+R8
+r1
+!s85 0
+31
+Z18 !s108 1664474462.000000
+Z19 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/mix_column.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/mix_column.v|
+!i113 1
+Z21 o-vlog01compat -work work
+Z22 !s92 -vlog01compat -work work {+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder}
+R14
+vdecr_128
+R1
+Z23 !s110 1664474464
+!i10b 1
+!s100 ^``Qi]EhBjCBiDURQ7W?V3
+R3
+I986YBeKfE?4Zi6I229^<i1
+R4
+S1
+R0
+w1653395656
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv
+!i122 9
+L0 1 205
+R8
+r1
+!s85 0
+31
+Z24 !s108 1664474464.000000
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_128.sv|
+!i113 1
+R12
+R13
+R14
+vdecr_192
+R1
+R2
+!i10b 1
+!s100 8O>V2[bg4jZ[mRO9bhFDH2
+R3
+I3DfOo3:gI_SN;mXf51DR42
+R4
+S1
+R0
+w1653406043
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv
+!i122 8
+L0 1 240
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_192.sv|
+!i113 1
+R12
+R13
+R14
+vdecr_256
+R1
+R23
+!i10b 1
+!s100 cmN5`<YM@3cH?XaMH_FPJ0
+R3
+IlCK2Kfh2O7mXc[@z9D63X1
+R4
+S1
+R0
+w1653406044
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_256.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_256.sv
+!i122 14
+L0 1 274
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_256.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/decr_256.sv|
+!i113 1
+R12
+R13
+R14
+vencrypt_128
+R1
+R23
+!i10b 1
+!s100 f9jKWDaAUG6lJ@E52VfOT0
+R3
+I1d>N[L?mk_Aa5[L?hC`;c3
+R4
+S1
+R0
+w1653407613
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv
+!i122 15
+L0 1 195
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_128.sv|
+!i113 1
+R12
+R13
+R14
+vencrypt_192
+R1
+R23
+!i10b 1
+!s100 ]6<UL``ZNGH_LGmb4X^Gf0
+R3
+I0kC<hCh6^RP4_2GO1dHGg1
+R4
+S1
+R0
+w1653423943
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv
+!i122 17
+L0 1 256
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_192.sv|
+!i113 1
+R12
+R13
+R14
+vencrypt_256
+R1
+R23
+!i10b 1
+!s100 RQeZfFDhG:2@d>[8;3AKU0
+R3
+I:@]X2XkEQ^T[4FmOPEJ:]0
+R4
+S1
+R0
+w1653459950
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_256.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_256.sv
+!i122 18
+L0 1 284
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_256.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/encrypt_256.sv|
+!i113 1
+R12
+R13
+R14
+vinv_colbyrow
+R2
+!i10b 1
+!s100 7Lh5A63cf[UY2ACn:M6A>2
+R3
+IAFRT0eTPbhgFZTOfiWS_V0
+R4
+R0
+Z25 w1653344417
+Z26 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/inv_mix_column.v
+Z27 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/inv_mix_column.v
+!i122 1
+L0 42 21
+R8
+r1
+!s85 0
+31
+R9
+Z28 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/inv_mix_column.v|
+Z29 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/inv_mix_column.v|
+!i113 1
+R21
+R22
+R14
+vinv_mix_col
+R2
+!i10b 1
+!s100 feUE_1b6P:_:;IOH;_GW=3
+R3
+Ie]FX@Z1SO`Z<iH<5Dg;;K1
+R4
+R0
+R25
+R26
+R27
+!i122 1
+L0 64 30
+R8
+r1
+!s85 0
+31
+R9
+R28
+R29
+!i113 1
+R21
+R22
+R14
+vinv_multi
+R2
+!i10b 1
+!s100 5i0NjS?@c`]:J>c7j9<6A1
+R3
+I8oV5N>aZVA3PIYGgln;[32
+R4
+R0
+R25
+R26
+R27
+!i122 1
+L0 1 38
+R8
+r1
+!s85 0
+31
+R9
+R28
+R29
+!i113 1
+R21
+R22
+R14
+vInvSBox
+R1
+R2
+!i10b 1
+!s100 OW4@Snh272=IQI[lJ41jm3
+R3
+I0ARHdDZB<`>g;bgG<lV^n1
+R4
+S1
+R0
+Z30 w1651911520
+Z31 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSBox.sv
+Z32 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSBox.sv
+!i122 6
+Z33 L0 1 266
+R8
+r1
+!s85 0
+31
+R9
+Z34 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSBox.sv|
+Z35 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSBox.sv|
+!i113 1
+R12
+R13
+R14
+n@inv@s@box
+vInvSBox_tb
+R1
+R2
+!i10b 1
+!s100 X6T51k7^hi>fX4bIQQW>V0
+R3
+I2G_dDkMlfknRAX26Ed8Kg2
+R4
+S1
+R0
+R30
+R31
+R32
+!i122 6
+Z36 L0 268 19
+R8
+r1
+!s85 0
+31
+R9
+R34
+R35
+!i113 1
+R12
+R13
+R14
+n@inv@s@box_tb
+vInvShiftRows
+R1
+R23
+!i10b 1
+!s100 =;AKT<zj7nX>3YC?]m[:g3
+R3
+IH_`lHck7H@cEh1=B24k0Q2
+R4
+S1
+R0
+w1653395081
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvShiftRows.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvShiftRows.sv
+!i122 10
+L0 1 34
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvShiftRows.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvShiftRows.sv|
+!i113 1
+R12
+R13
+R14
+n@inv@shift@rows
+vInvSubBytes
+R1
+R2
+!i10b 1
+!s100 A`8@ldaoVgZeJL?`H<3Qf0
+R3
+I:TAlO6BN16LHO47SDbD;U1
+R4
+S1
+R0
+Z37 w1651911523
+Z38 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSubBytes.sv
+Z39 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSubBytes.sv
+!i122 5
+Z40 L0 1 76
+R8
+r1
+!s85 0
+31
+R9
+Z41 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSubBytes.sv|
+Z42 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/InvSubBytes.sv|
+!i113 1
+R12
+R13
+R14
+n@inv@sub@bytes
+vInvSubBytes_tb
+R1
+R2
+!i10b 1
+!s100 PNMH7Ga7UHdZZ:^je:;M@1
+R3
+IK19NL:Pi;5]@cFaCJ@4WL2
+R4
+S1
+R0
+R37
+R38
+R39
+!i122 5
+Z43 L0 78 15
+R8
+r1
+!s85 0
+31
+R9
+R41
+R42
+!i113 1
+R12
+R13
+R14
+n@inv@sub@bytes_tb
+vKeyExpansion_128
+R1
+R23
+!i10b 1
+!s100 ?R?Agd>K>4FMR<5LI4Pbk3
+R3
+I?@m=@Lk][XVa=OCEDQ_oL3
+R4
+S1
+R0
+w1653395518
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv
+!i122 11
+Z44 L0 1 450
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_128.sv|
+!i113 1
+R12
+R13
+R14
+n@key@expansion_128
+vKeyExpansion_192
+R1
+R23
+!i10b 1
+!s100 7=N^J0]T@TA?^k^lB5kRa0
+R3
+IhoNP_alkWbNeYNSTUY3VH1
+R4
+S1
+R0
+w1653395550
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv
+!i122 12
+R44
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_192.sv|
+!i113 1
+R12
+R13
+R14
+n@key@expansion_192
+vKeyExpansion_256
+R1
+R23
+!i10b 1
+!s100 4OAmiNbY4AZDOkNhH<OOo1
+R3
+Ib7ZbjYMLV39VgVEL1feAZ1
+R4
+S1
+R0
+w1653395587
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_256.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_256.sv
+!i122 13
+R44
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_256.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/KeyExpansion_256.sv|
+!i113 1
+R12
+R13
+R14
+n@key@expansion_256
+vmix_col
+R2
+!i10b 1
+!s100 cTQUa5mBnGlL0FoYoMbaj3
+R3
+IicLK@XMSSg=J^lf33::=43
+R4
+R0
+R15
+R16
+R17
+!i122 0
+L0 58 28
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R21
+R22
+R14
+vmulti
+R2
+!i10b 1
+!s100 6KPjA[7YT_`gLOcLz[k5m2
+R3
+I=Eb<KJP2of9aW8JTQh>Y@0
+R4
+R0
+R15
+R16
+R17
+!i122 0
+L0 14 21
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R21
+R22
+R14
+vSBox
+R1
+R2
+!i10b 1
+!s100 nGb?E?1XDP_W=gS1G7MEF0
+R3
+IGnn^Lo0en]XczOikH9V4L1
+R4
+S1
+R0
+Z45 w1651180870
+Z46 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv
+Z47 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv
+!i122 4
+R33
+R8
+r1
+!s85 0
+31
+R9
+Z48 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv|
+Z49 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SBox.sv|
+!i113 1
+R12
+R13
+R14
+n@s@box
+vSBox_tb
+R1
+R2
+!i10b 1
+!s100 ZIaL:Rl9hOMY<J91b9XLR2
+R3
+I`8L?m^?ckj=NjDb`D<e>_0
+R4
+S1
+R0
+R45
+R46
+R47
+!i122 4
+R36
+R8
+r1
+!s85 0
+31
+R9
+R48
+R49
+!i113 1
+R12
+R13
+R14
+n@s@box_tb
+vShiftRows
+R1
+R23
+!i10b 1
+!s100 WNc?5`d;DRH]KV;ELM]b21
+R3
+IkNX5A@9CULEG20TQHe8<o0
+R4
+S1
+R0
+w1653406375
+8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/ShiftRows.sv
+FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/ShiftRows.sv
+!i122 16
+L0 1 31
+R8
+r1
+!s85 0
+31
+R24
+!s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/ShiftRows.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/ShiftRows.sv|
+!i113 1
+R12
+R13
+R14
+n@shift@rows
+vSubBytes
+R1
+R2
+!i10b 1
+!s100 Ead69eYPliJTATS^T]goE3
+R3
+I7RVNKJd5L4kIR0oDD[GOe2
+R4
+S1
+R0
+Z50 w1651180866
+Z51 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubBytes.sv
+Z52 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubBytes.sv
+!i122 3
+R40
+R8
+r1
+!s85 0
+31
+R9
+Z53 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubBytes.sv|
+Z54 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/SubBytes.sv|
+!i113 1
+R12
+R13
+R14
+n@sub@bytes
+vSubBytes_tb
+R1
+R2
+!i10b 1
+!s100 CJcaTjIj@ddP5F>m<bf@h1
+R3
+IFh476cHKh:F38e[6BSKgF1
+R4
+S1
+R0
+R50
+R51
+R52
+!i122 3
+R43
+R8
+r1
+!s85 0
+31
+R9
+R53
+R54
+!i113 1
+R12
+R13
+R14
+n@sub@bytes_tb
+vtest
+R2
+!i10b 1
+!s100 ;Lk[28cRE9]m>EMMZ^^ND1
+R3
+IjXb3g`QYMAZn_jb6d^gLo2
+R4
+R0
+R25
+R26
+R27
+!i122 1
+L0 95 9
+R8
+r1
+!s85 0
+31
+R9
+R28
+R29
+!i113 1
+R21
+R22
+R14
+vwrapper
+R1
+R2
+!i10b 1
+!s100 DJE0?DYCVaP8J538WQGZF1
+R3
+I_<B`k@jJnXhLiQWOom?@>2
+R4
+S1
+R0
+Z55 w1653478147
+Z56 8D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/wrapper.sv
+Z57 FD:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/wrapper.sv
+!i122 2
+L0 1 181
+R8
+r1
+!s85 0
+31
+R9
+Z58 !s107 D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/wrapper.sv|
+Z59 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder|D:/CMP1- Materials/First Year/Second Term/Logic Design/Project/New folder/wrapper.sv|
+!i113 1
+R12
+R13
+R14
+vwrapper_tb
+R1
+R2
+!i10b 1
+!s100 AEEJb_6a4EORlhlS5j__43
+R3
+I9W82Vfm1lcB>0YBbabA452
+R4
+S1
+R0
+R55
+R56
+R57
+!i122 2
+L0 183 52
+R8
+r1
+!s85 0
+31
+R9
+R58
+R59
+!i113 1
+R12
+R13
+R14
+vx_time
+R2
+!i10b 1
+!s100 TcMaBh7QI=Ga7=_[bJ<ES0
+R3
+Imgj1HXV[2;H]4Ece?UJZ92
+R4
+R0
+R15
+R16
+R17
+!i122 0
+L0 1 12
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R21
+R22
+R14
